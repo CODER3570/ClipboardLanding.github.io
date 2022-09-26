@@ -125,3 +125,64 @@ p{
     line-height: 1.4em;
     font-size: 1.2rem;
   }
+
+
+
+
+
+  @media screen and (max-width:920px) {
+    body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    img{
+          margin: auto;
+          width: 50%;
+
+      }
+}
+
+@media screen and (max-width:980px) {
+  #Computers {
+    position: relative;
+    left: 0rem;
+    text-align: center;
+    width: 50%;
+
+
+  }
+
+  .features{
+    width: 60%;
+    text-align: center;
+margin: 20% 20%;
+  }
+
+  .press-img{
+    width: 30%;
+  }
+
+  .container-flex{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .Flex-item-1 p{
+  padding: 5% 0;
+  text-align: center;
+  margin: 5% 0;
+
+}
+
+.Flex-item-1
+{
+  margin: 5% 0;
+  padding: 0;
+
+}
+
+.btn{
+  width: 100%;
+}
+}
