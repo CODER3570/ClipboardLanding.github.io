@@ -1,0 +1,127 @@
+body{
+  margin:0;
+}
+
+Section{
+  text-align: center;
+}
+
+/* HEADINGS */
+
+h1,h2,h3,h4,h5,h6{
+color: hsl(227deg 10% 33%);
+}
+
+p{
+  color: #BEBEBE;
+      margin: 1em auto 2em;
+      line-height: 1.4em;
+      font-size: 1.2rem;
+}
+
+.btn{
+  margin: 5% 0 5% 0;
+  width: 30%;
+  border-radius: 70%;
+}
+
+
+/* THis is the bg heading at the top of the Page */
+
+.Header-background{
+  width: 100%;
+  position: absolute;
+  right: 0;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.main-logo{
+  width: 100px;
+  height: 100px;
+
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  padding: 3% 20%;
+}
+
+
+.Main{
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 29%;
+  font-family: 'Bai Jamjuree', sans-serif;
+  line-height: 1.5;
+}
+
+/* THis is the MaidBody2 */
+.features{
+  text-align: left;
+  font-family: 'Bai Jamjuree', sans-serif;
+  line-height: 1.5;
+  padding-top: 2rem;
+}
+.computerimage img{
+  width: 100%;
+  position: relative;
+  left:-3rem;
+}
+
+.feature-gap{
+  padding: 3% 47% 5% 5%;
+}
+
+.Advantages{
+  padding: 5% 30%;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.Advantages p{
+  padding: 2% 0;
+}
+
+/* Third Container */
+
+.Flex-item-1{
+  width: 25%;
+}
+
+.Flex-item-1 h5{
+  padding: 7% 0;
+}
+
+.Flex-item-1 p
+{
+  line-height: 1.7em;
+}
+
+.container-flex{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  padding: 0 15% 5% 15%;
+}
+
+.press-img{
+  margin: 5% 5%;
+}
+
+/*LASTSECTION*/
+
+.Clipbord-final{
+  text-align: center;
+}
+
+.Last h6{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.Last p{
+    margin: 1em auto 2em;
+    line-height: 1.4em;
+    font-size: 1.2rem;
+  }
